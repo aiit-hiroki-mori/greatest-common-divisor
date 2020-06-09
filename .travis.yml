@@ -1,2 +1,6 @@
 script:
   - bash test_greatest_common_divisor.sh
+branches:
+  only: 
+    - master
+    - develop
