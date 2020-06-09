@@ -8,7 +8,7 @@ ABS_PATH=$(cd $(dirname $0); pwd)/greatest_common_divisor.sh
 # 正常系
 ## 同じ数字同士: 1-1, 10-10
 RESULT=$(bash ${ABS_PATH} 1 1)
-if [[ $? -eq 0 ]] && [[ $RESULT -eq 0 ]]; then
+if [[ $? -eq 0 ]] && [[ $RESULT -eq 1 ]]; then
   echo "OK"
 else
   echo "NG"
